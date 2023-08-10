@@ -1,8 +1,14 @@
-# Sample GitLab Project
+# Jesus Cleans the River
 
-This sample project shows how a project in GitLab looks for demonstration purposes. It contains issues, merge requests and Markdown files in many branches,
-named and filled with lorem ipsum.
+Credits to: Marc Klinge, Moritz Tanz and Laila Staschenuk
 
-You can look around to get an idea how to structure your project and, when done, you can safely delete this project.
+We made this together for a software techniques class at HTWK Leipzig.
 
-[Learn more about creating GitLab projects.](https://docs.gitlab.com/ee/gitlab-basics/create-project.html)
+In order to run the game you need to install pygame:
+```$ pip install pygame```
+If this gives you errors regarding external managed environments, create a virtual environment in the cloned repo:
+```$ virtualenv <name>```
+```$ <name>/bin/activate```
+```$ pip install pygame```
+Now you can run the game using:
+```$ python3 Main.py```
